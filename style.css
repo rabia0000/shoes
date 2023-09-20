@@ -5,18 +5,36 @@ body {
 }
 
 header {
+    
+    
     background-color: #f5D5f5;
 
     margin: 0 auto;
 
 }
 
-#cart>.left{
-    margin-left: 2rem;
+#cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap:0.5rem;
+
+   
+}
+
+#cart span{
+    display: block;
+}
+
+.left{
+    float: left;
+    
+   
 }
 
 
 header>.container {
+ 
     background-color: #f5D5f5;
     padding: 1rem 0;
     Width: 75%;
@@ -24,6 +42,7 @@ header>.container {
 
 }
 img[alt="logo de Shoesplash"]{
+display:inline;
 float: left;
 }
 
@@ -149,6 +168,7 @@ h3 {
 #info {
 
     display: flex;
+    flex-wrap: wrap;
     text-transform: uppercase;
 
     margin: 0 auto;
@@ -173,6 +193,7 @@ h3 {
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
 
