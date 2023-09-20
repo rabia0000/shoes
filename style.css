@@ -1,0 +1,211 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #f5D5f5;
+
+    margin: 0 auto;
+
+}
+
+#cart>.left{
+    margin-left: 2rem;
+}
+
+
+header>.container {
+    background-color: #f5D5f5;
+    padding: 1rem 0;
+    Width: 75%;
+    margin: 2rem auto;
+
+}
+img[alt="logo de Shoesplash"]{
+float: left;
+}
+
+
+nav {
+
+    clear: left;
+    /* margin:0 auto;
+     */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f5D5f5;
+    margin: 2rem 0;
+    background-color: #f5D5f5;
+}
+
+a[href="#"] {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+
+#slider {
+    border: 1px solid grey;
+    Width: 75%;
+    margin: 0 auto;
+
+
+}
+
+
+
+#slider img {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+#select>h1 {
+    width: 100%;
+    margin: 2rem;
+    background-color: white;
+}
+
+#select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    Width: 75%;
+    margin: 2rem auto;
+
+    border: 1px solid black;
+    align-items: baseline;
+    background-color: white;
+}
+
+
+
+#news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    Width: 75%;
+    margin: 0 auto;
+
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#news article {
+
+
+    background-color: white;
+
+}
+
+#new h2 {
+    background-color: fuchsia;
+    color: white;
+    font-weight: 100;
+    margin: 1rem 0;
+}
+
+#best h2 {
+    background-color: rgb(0, 255, 13);
+    color: white;
+    font-weight: 100;
+    margin: 1rem 0;
+}
+
+#crush h2 {
+    background-color: rgb(0, 238, 255);
+    color: white;
+    font-weight: 100;
+    margin: 1rem 0;
+
+}
+
+
+h3 {
+    font-family: 'Courgette', cursive;
+}
+
+#new>small {
+    font-family: 'Courgette', cursive;
+}
+
+#best>small {
+    font-family: 'Courgette', cursive;
+}
+
+#crush>small {
+    font-family: 'Courgette', cursive;
+}
+
+#info {
+
+    display: flex;
+    text-transform: uppercase;
+
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+    background-color: #E4AFE2;
+    padding: 1rem;
+
+}
+
+#info> article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+
+
+#bottombar {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+    margin: 0 auto;
+    background-color: white;
+    background-color: #f5D5f5;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+#news h2:before {
+    content: url(img/logo4.png);
+    margin-right: 1rem;
+    
+}
+
+#slider> h2{
+    position: absolute;
+    font-size: 1rem;
+    background-color: #f5D5f5;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    }
+    
+span{
+
+    font-weight: 100;
+    color: grey;
+
+}
